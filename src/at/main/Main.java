@@ -11,11 +11,16 @@ public class Main {
 
     private static CubeSites[] cubeSites2 = {CubeSites.ace, CubeSites.ace, CubeSites.ace, CubeSites.ace, CubeSites.ace};
 
-
     public static void main(String[] args) {
         System.out.println(Arrays.toString(doUntilFiveOfAKind()));
         System.out.println("Anzahl: " + countGeneral);
         System.out.println("Grande: " + countFourOfAKind);
+
+        System.out.println(0);
+        System.out.println(0);
+        System.out.println(0);
+        System.out.println(0);
+        System.out.println(0);
     }
 
     private static CubeSites[] doUntilFiveOfAKind() {
